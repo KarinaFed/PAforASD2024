@@ -15,6 +15,10 @@ Execute the benchmark script to generate synthetic data and compare the performa
 `python3 benchmark.py`
 5. **Data Generation**:
 The dataset is generated within the benchmark script using `make_blobs` from `sklearn`. No external data files are needed.
+The generated dataset consists of:
+- number of samples: 70000;
+- number of features: 10;
+- number of clusters: 8.
 
 ## Parallelization Details
 The parallelization is achieved using Dask, which allows for efficient distribution of the K-Means algorithm across multiple processes. The data is split into chunks that can be processed in parallel, significantly reducing computation time.
