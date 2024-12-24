@@ -5,8 +5,8 @@ This project implements the K-Means clustering algorithm using both sequential a
 
 ## Instructions to Reproduce Results
 1. **Clone the Repository**:
-'https://github.com/KarinaFed/PAforASD2024.git'
-'cd PAforASD2024'
+`https://github.com/KarinaFed/PAforASD2024.git
+'cd PAforASD2024`
 2. **Install Required Libraries**:
 Make sure you have Python installed, then install the required libraries:
 pip install pandas matplotlib scikit-learn dask[complete] dask-ml
